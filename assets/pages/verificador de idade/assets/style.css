@@ -1,0 +1,25 @@
+body{
+    background: rgb(189, 50, 50);
+    font: normal 15pt arial;
+}
+
+header{
+    color: white;
+    text-align: center; /*texto centralizado*/   
+}
+
+section{
+    background: white;
+    border-radius: 10px; /*aredonda as bordas*/
+    padding: 15px;/*margem interna*/
+    width: 500px; /*largura*/
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(63, 61, 61, 0.863);/*sobra*/
+    /*lateralPX verticalPX espalhamentoPX cor*/   
+}
+
+footer{
+    color: white;
+    text-align: center;/*texto centralizado*/
+    font-style: italic;
+}

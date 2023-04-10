@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/img/fundo.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    color: yellowgreen;
+    text-shadow: 0 0 10px black,
+                 0 0 10px black,
+                 0 0 10px black;
+}
+
+div{
+    text-align: center;
+}
+
+button{
+    height: 2.2em;
+    width: 5.5em;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.start-btn {
+    background-color: green;
+}
+
+.pause-btn{
+    background-color: grey;
+}
+
+.stop-btn{
+    background-color: red;
+}

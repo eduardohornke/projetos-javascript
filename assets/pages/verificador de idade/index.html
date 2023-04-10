@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vereificador de Idade</title>
+    <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="txt_ano" id="txt_ano">
+            </p>
+
+            <p>Sexo:
+                <input type="radio" name="rad_sex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="rad_sex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+
+        <div id="resp">
+
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; Eduardo Hornke</p>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+</html>

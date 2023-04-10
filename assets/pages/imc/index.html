@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#03C4A1">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <title>Calculadora de IMC</title>
+</head>
+<body>
+  <div class="main">
+
+    <div class="content">
+
+      <div class="input">
+        <p>Preencha os campos abaixo e veja seu resultado:</p>
+
+        <form action="" id="form">
+          <input
+            type="number"
+            max="200"
+            name="peso" 
+            id="peso"
+            required
+            spellcheck="false"
+            placeholder="Peso (Kg)">
+          
+          <input
+            type="number"
+            max="200"
+            name="altura"
+            id="altura"
+            required
+            spellcheck="false"
+            placeholder="Altura (cm)">
+
+          <input type="submit" value="Calcular" id="submit"/>
+
+        </form>
+      </div>
+
+      <div class="results" id="results">
+
+        <div class="card default">
+          <span class="title">Seu IMC</span>
+          <span class="score">-</span>
+          <span class="status">
+            Status
+          </span>
+        </div>
+
+        <div class="table">
+          <table>
+            <tr>
+              <td class="level">Abaixo do Peso</td>
+              <td>< 18.5</td>
+            </tr>
+
+            <tr>
+              <td class="level">Peso Normal</td>
+              <td>18.5 - 24.9</td>
+            </tr>
+
+            <tr>
+              <td class="level">Sobrepeso</td>
+              <td>25 - 29.9</td>
+            </tr>
+
+            <tr>
+              <td class="level">Obesidade Grau I</td>
+              <td>30 - 34.9</td>
+            </tr>
+            
+            <tr>
+              <td class="level">Obesidade Grau II</td>
+              <td>35 - 39.9</td>
+            </tr>
+
+            <tr>
+              <td class="level">Obesidade Grau III ou Mórbida</td>
+              <td> >= 40</td>
+          </table>
+
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
